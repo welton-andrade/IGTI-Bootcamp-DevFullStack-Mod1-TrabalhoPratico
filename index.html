@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/styles.css"/>
+
+    <title>Modulo 01: Trabalho Prático</title>
+</head>
+
+<body>
+    <div class="palllets">
+        <table>
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <td> 
+                        <span id="spanRed" class="spanColor"> (R) Red </span> 
+                    </td>
+                    <td>
+                        <input id="rangeRed" type="range" min="0" max="255"/>
+                    </td>
+                    <td>
+                        <input id="valueRed" type="number" min="0" max="255" disabled/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span id=spanGreen class="spanColor"> (G) Green </span>
+                    </td>
+                    <td>
+                        <input id="rangeGreen" type="range" min="0" max="255"/>
+                    </td>
+                    <td>
+                        <input id="valueGreen" type="number" min="0" max="255" disabled/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span id="spanBlue" class="spanColor"> (B) Blue </span>
+                    </td>
+                    <td>
+                        <input id="rangeBlue" type="range" min="0" max="255"/>
+                    </td>
+                    <td>
+                        <input id="valueBlue" type="number" min="0" max="255" disabled/>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
+
+    <div id="color">
+    </div>
+
+    <script src="./js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    padding: 10px;
+}
+
+table tr td {
+    padding: 5px;
+}
+
+.spanColor {
+    font-weight: bold;
+}
+
+#spanRed {
+    color: red;
+}
+
+#spanBlue {
+    color: blue;
+}
+
+#spanGreen {
+    color: green;
+}
+
+#color {
+    height: 100px;
+    width: 100px;
+    border: solid 1px;
+
+}
